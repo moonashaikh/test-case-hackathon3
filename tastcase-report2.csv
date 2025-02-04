@@ -1,0 +1,41 @@
+                                             Test Case Report for an eCommerce Website,,,,,,,
+,,,,,,,
+                             Project Name: Ecommerce Shop.,,,,,,,
+,,,,,,,
+                             Test Date: 04--2-2025.,,,,,,,
+,,,,,,,
+                              Tester Name: Rashida Shaikh,,,,,,,
+,,,,,,,
+,,,,,,,
+                 Test Case Summery :-,,,,,,,
+,,,,,,,
+,,,,,,,
+Total Test Cases,,Passed,Failed,Blocked,,,
+7,,7,0,0,,,
+,,,,,,,
+,,,,,,,
+Detailed Test Case result :-,,,,,,,
+,,,,,,,
+,,,,,,,
+Test Case ID,Test Case Title,Test Objective,Preconditions,Test Steps,Expected Result,Actual Result,Status
+C-001,User Registration,,The registration page is accessible.,1. Go to the registration page.,User is successfully registered and a confirmation email is sent.,User successfully registered and confirmation email sent.,Passed
+,,,,"2. Enter name, email, password.",,,
+,,,,"3. Click ""Register"".",,,
+C-002,Product Search,Verify that users can search for products on the website.,The homepage is loaded.,1. Go to the homepage.,Relevant Poroducts are displayed based on the search items. ,Relevant Product display,Passed
+,,,,2. Enter product name in the search bar.,,,
+,,,,"3. Click ""Search"".",,,
+C-003,Add Product to Cart,Test that the user can add a product to the shopping cart.,User is logged in and browsing a product.,"1. Go to product page.
+2. Select quantity/size.
+3. Click ""Add to Cart"".",Product is added to the cart and cart details are updated.,Product added successfully to cart.,Passed
+C-004,checkout process,Ensure that the checkout process works correctly.,The cart has items.,1. Go to the cart,Product is added to the cart and cart details are updated.,Product added successfully to cart.,Passed
+,,,,"2.Click ""Proceed to Checkout"".",,,
+,,,,3. Enter shipping details.,,,
+,,,,4. Complete payment details.,,,
+,,,,5. Place the order..,,,
+C-005,User Login,Verify that a user can log in successfully,User has an existing account.,"1. Go to login page.
+2. Enter username and password.
+3. Click ""Login""",User is successfully logged in and redirected to the homepage.,"Login successful, redirected to homepage.",Passed
+C-006,Mobile Responsiveness,Ensure that the website is responsive on mobile devices.,The website is accessible on a mobile device.,"1. Open the website on a mobile browser.
+2. Navigate through various pages.	","Website adapts to mobile screen, buttons and links are clickable..","Mobile responsive, no issues found.",Passed
+C-007,Logout Functionality,Ensure that the user can log out successfully,User is logged in.,"1. Click the ""Logout"" button.
+2. Verify user is logged out and redirected to the homepage.",User is logged out and redirected to the homepage,"Logout successful, redirected to homepage.",Passed
